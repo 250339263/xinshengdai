@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D04DEDD1C43C79700792454 /* add.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D04DEDC1C43C79700792454 /* add.m */; };
 		2DFE33A61C42A622009DAD0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE33A51C42A622009DAD0A /* main.m */; };
 		2DFE33A91C42A622009DAD0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE33A81C42A622009DAD0A /* AppDelegate.m */; };
 		2DFE33AC1C42A622009DAD0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE33AB1C42A622009DAD0A /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D04DEDB1C43C79700792454 /* add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = add.h; sourceTree = "<group>"; };
+		2D04DEDC1C43C79700792454 /* add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = add.m; sourceTree = "<group>"; };
 		2DFE33A11C42A622009DAD0A /* xinshengdai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinshengdai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFE33A51C42A622009DAD0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2DFE33A71C42A622009DAD0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				2DFE33B21C42A622009DAD0A /* LaunchScreen.storyboard */,
 				2DFE33B51C42A622009DAD0A /* Info.plist */,
 				2DFE33A41C42A622009DAD0A /* Supporting Files */,
+				2D04DEDB1C43C79700792454 /* add.h */,
+				2D04DEDC1C43C79700792454 /* add.m */,
 			);
 			path = xinshengdai;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFE33AC1C42A622009DAD0A /* ViewController.m in Sources */,
+				2D04DEDD1C43C79700792454 /* add.m in Sources */,
 				2DFE33A91C42A622009DAD0A /* AppDelegate.m in Sources */,
 				2DFE33A61C42A622009DAD0A /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				2DFE33D01C42A623009DAD0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DFE33D11C42A623009DAD0A /* Build configuration list for PBXNativeTarget "xinshengdaiTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				2DFE33D31C42A623009DAD0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DFE33D41C42A623009DAD0A /* Build configuration list for PBXNativeTarget "xinshengdaiUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				2DFE33D61C42A623009DAD0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
